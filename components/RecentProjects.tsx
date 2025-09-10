@@ -7,7 +7,7 @@ import { WobbleCard } from "./ui/wobble-card";
 
 const RecentProjects = () => {
   return (
-    <div className="py-10" id="projects">
+    <div className="pb-10 pt-12 " id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -34,7 +34,7 @@ const RecentProjects = () => {
               </h1>
 
               {/* Description */}
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 mt-2 text-[#BEC1DD]">
+              <p className="lg:text-xl lg:font-normal font-light text-xs line-clamp-4 mt-2 text-[#BEC1DD]">
                 {des}
               </p>
 
@@ -56,10 +56,15 @@ const RecentProjects = () => {
                 </div>
 
                 {/* Live link */}
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-sm text-sm">Live</p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
+                {link && (
+                  <div
+                    className="flex justify-center items-center hover:cursor-pointer"
+                    onClick={() => window.open(link, "_blank")}
+                  >
+                    <p className="flex lg:text-xl md:text-sm text-sm">Live</p>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </div>
+                )}
               </div>
             </WobbleCard>
           </div>
