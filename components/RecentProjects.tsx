@@ -58,7 +58,7 @@ const RecentProjects = () => {
                 {/* Live link */}
                 {link && (
                   <div
-                    className="flex justify-center items-center hover:cursor-pointer"
+                    className="flex justify-center items-center hover:cursor-pointer hover:opacity-80 relative z-10"
                     onClick={() => window.open(link, "_blank")}
                   >
                     <p className="flex lg:text-xl md:text-sm text-sm">Live</p>

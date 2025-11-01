@@ -1,6 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Resume", link: "" },
+    { name: "Resume", link: "https://drive.google.com/file/d/11zq33ajqww6Ix5hrZPlO2wYlHjinmAWN/view" },
     { name: "Projects", link: "#projects" },
     // { name: "Testimonials", link: "#testimonials" },
     // { name: "Blogs", link: "https://dev.to/akashjana"},
@@ -219,6 +219,6 @@ export const navItems = [
     {
       id: 3,
       img: "/link.svg",
-      href: "https://www.linkedin.com/in/dhruvibhuva",
+      href: "https://www.linkedin.com/in/dhruvi-bhuva/",
     },
   ];

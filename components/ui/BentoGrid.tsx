@@ -152,7 +152,7 @@ export const BentoGridItem = ({
                 />
                 <div className="flex gap-4">
                   <a
-                    href="https://drive.google.com/file/d/1udileHqcrbD09gjuFpUZlHgpOajw3UU_/view?usp=sharing"
+                    href="https://drive.google.com/file/d/11zq33ajqww6Ix5hrZPlO2wYlHjinmAWN/view"
                     target="_blank"
                   >
                     <div className="z-10">
